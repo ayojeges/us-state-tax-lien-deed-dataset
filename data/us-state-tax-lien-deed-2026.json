@@ -1,0 +1,2916 @@
+{
+ "title": "US State Tax Lien & Deed Investing Dataset 2026",
+ "publisher": "LienSimple (taxliensimple.com)",
+ "lastUpdated": "2026-07-02",
+ "methodology": "https://taxliensimple.com/dataset#methodology",
+ "license": "Free to use with attribution to taxliensimple.com",
+ "dimensions": {
+  "effectiveYield": "Effective Yield",
+  "penaltyStructure": "Penalty Structure",
+  "redemption": "Redemption Speed",
+  "auctionAccess": "Auction Access",
+  "competition": "Low Competition",
+  "capitalFloor": "Low Capital Entry",
+  "processRisk": "Process Safety",
+  "legalStability": "Legal Stability",
+  "otcAvailability": "OTC Availability"
+ },
+ "stateCount": 51,
+ "states": [
+  {
+   "slug": "alabama",
+   "state": "Alabama",
+   "system": "lien",
+   "investorAccessible": true,
+   "maxRate": "12% bid-down",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "3yr min 10yr",
+   "statute": "Ala. Code §40-10-180",
+   "officialSource": "https://law.justia.com/codes/alabama/title-40/chapter-10/article-7/",
+   "onlinePortals": [
+    "RealAuction",
+    "Bid4Assets"
+   ],
+   "compositeScore": 5.6,
+   "scores": {
+    "effectiveYield": {
+     "score": 5,
+     "reasoning": "12% ceiling bid down in 1% steps on GovEase; hot liens go to low single digits"
+    },
+    "penaltyStructure": {
+     "score": 4,
+     "reasoning": "Simple interest at bid rate only; no flat penalty on early redemption"
+    },
+    "redemption": {
+     "score": 3,
+     "reasoning": "Owner may redeem anytime; foreclosure only after 3yrs, cert expires at 10yrs"
+    },
+    "auctionAccess": {
+     "score": 8,
+     "reasoning": "Most counties auction liens online via GovEase; OTC pickup at county offices"
+    },
+    "competition": {
+     "score": 4,
+     "reasoning": "Online GovEase sales draw national bidders; metro liens bid near 0%"
+    },
+    "capitalFloor": {
+     "score": 9,
+     "reasoning": "Liens sell at back taxes; many certificates a few hundred dollars"
+    },
+    "processRisk": {
+     "score": 3,
+     "reasoning": "Judicial foreclosure + quiet title; 2018-regime redemption litigation traps"
+    },
+    "legalStability": {
+     "score": 5,
+     "reasoning": "Lien-auction regime only since 2018 (40-10-180+), amended 2022; counties converting"
+    },
+    "otcAvailability": {
+     "score": 9,
+     "reasoning": "Unsold liens sold over the counter at revenue commissioner offices (e.g. Mobile)"
+    }
+   },
+   "sources": [
+    "https://mobilecopropertytax.com/taxliensale/"
+   ]
+  },
+  {
+   "slug": "alaska",
+   "state": "Alaska",
+   "system": "deed",
+   "investorAccessible": false,
+   "maxRate": "N/A",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "N/A",
+   "statute": "AS §29.45.300",
+   "officialSource": "https://www.akleg.gov/basis/statutes.asp#29.45.300",
+   "onlinePortals": [
+    "Municipality sites"
+   ],
+   "compositeScore": 2.4,
+   "scores": {
+    "effectiveYield": {
+     "score": 1,
+     "reasoning": "No retail market: municipality forecloses itself; no lien certs sold to investors"
+    },
+    "penaltyStructure": {
+     "score": 1,
+     "reasoning": "No retail market; no investor interest/penalty instrument exists"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "No retail market; owner redeems from the municipality, not investors"
+    },
+    "auctionAccess": {
+     "score": 1,
+     "reasoning": "No retail lien market; only occasional muni surplus-land sealed-bid sales"
+    },
+    "competition": {
+     "score": 2,
+     "reasoning": "No retail market to compete in; muni keeps or resells foreclosed land itself"
+    },
+    "capitalFloor": {
+     "score": 2,
+     "reasoning": "No retail market; muni surplus-land sales require full parcel prices"
+    },
+    "processRisk": {
+     "score": 3,
+     "reasoning": "No retail market; muni sells foreclosed land as-is, where-is, no warranty"
+    },
+    "legalStability": {
+     "score": 8,
+     "reasoning": "AS 29.45 enforcement scheme long stable, but no retail investor market exists"
+    },
+    "otcAvailability": {
+     "score": 2,
+     "reasoning": "No retail market; no OTC lien lists, only sporadic muni land offerings"
+    }
+   },
+   "sources": [
+    "https://www.muni.org/Departments/hlb/Pages/RESForeclosedProperties.aspx"
+   ]
+  },
+  {
+   "slug": "arizona",
+   "state": "Arizona",
+   "system": "lien",
+   "investorAccessible": true,
+   "maxRate": "16%/yr simple bid-down",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "3yr min 10yr max",
+   "statute": "ARS §§42-18101 to 42-18204",
+   "officialSource": "https://www.to.pima.gov/taxLienSale/",
+   "onlinePortals": [
+    "RealAuction"
+   ],
+   "compositeScore": 6,
+   "scores": {
+    "effectiveYield": {
+     "score": 5,
+     "reasoning": "16% ceiling but big-county CP rates bid to low single digits online"
+    },
+    "penaltyStructure": {
+     "score": 3,
+     "reasoning": "Simple interest at bid rate from March 1 (ARS 42-18153); no penalty floor"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "3yr minimum hold before Superior Court foreclosure (ARS 42-18201)"
+    },
+    "auctionAccess": {
+     "score": 9,
+     "reasoning": "County sales online via RealAuction (Pima 2026); near-statewide coverage"
+    },
+    "competition": {
+     "score": 3,
+     "reasoning": "Heavily institutional online sales; funds dominate Maricopa/Pima"
+    },
+    "capitalFloor": {
+     "score": 9,
+     "reasoning": "CP liens start at back taxes; many certificates a few hundred dollars"
+    },
+    "processRisk": {
+     "score": 5,
+     "reasoning": "Judicial foreclosure required after 3yrs; well-worn process but adds cost"
+    },
+    "legalStability": {
+     "score": 9,
+     "reasoning": "ARS 42-18101 to 42-18204 regime stable for decades; predictable case law"
+    },
+    "otcAvailability": {
+     "score": 9,
+     "reasoning": "State CP assignments sold OTC online Apr 1-Dec 15 (Pima via RealAuction)"
+    }
+   },
+   "sources": [
+    "https://www.to.pima.gov/taxLienSale/"
+   ]
+  },
+  {
+   "slug": "arkansas",
+   "state": "Arkansas",
+   "system": "deed",
+   "investorAccessible": true,
+   "maxRate": "N/A",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "N/A",
+   "statute": "Ark. Code §26-37-101",
+   "officialSource": "https://www.cosl.org/Home/Buyers",
+   "onlinePortals": [
+    "County sites"
+   ],
+   "compositeScore": 4.6,
+   "scores": {
+    "effectiveYield": {
+     "score": 2,
+     "reasoning": "Deed state: no interest instrument; profit only from below-market deed buys"
+    },
+    "penaltyStructure": {
+     "score": 1,
+     "reasoning": "No investor penalty/interest; COSL sells the deed itself"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "Deed sale; no post-sale yield period, only 1yr excess-proceeds claim by owner"
+    },
+    "auctionAccess": {
+     "score": 8,
+     "reasoning": "COSL live county auctions plus online post-auction sales at auction.cosl.org"
+    },
+    "competition": {
+     "score": 5,
+     "reasoning": "Statewide online access raised bidding, but heavy rural inventory remains"
+    },
+    "capitalFloor": {
+     "score": 5,
+     "reasoning": "Minimum bids near back taxes; rural parcels often under a few thousand"
+    },
+    "processRisk": {
+     "score": 3,
+     "reasoning": "Limited warranty deed, title not marketable; confirmation/quiet title needed"
+    },
+    "legalStability": {
+     "score": 7,
+     "reasoning": "Long-running COSL system; periodic tweaks (Act 2270 of 2005), no upheaval"
+    },
+    "otcAvailability": {
+     "score": 8,
+     "reasoning": "Unsold parcels buyable 30 days post-auction from daily-updated COSL list"
+    }
+   },
+   "sources": [
+    "https://www.cosl.org/Home/Buyers"
+   ]
+  },
+  {
+   "slug": "california",
+   "state": "California",
+   "system": "deed",
+   "investorAccessible": true,
+   "maxRate": "N/A (deed sale; delinquency penalties go to county, not buyer)",
+   "penaltyOrInterest": "penalty",
+   "redemptionPeriod": "None (terminates close of business last business day before sale, RTC 3707)",
+   "statute": "Cal. Rev. Tax. Code §3700",
+   "officialSource": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=3707",
+   "onlinePortals": [
+    "Bid4Assets"
+   ],
+   "compositeScore": 3.6,
+   "scores": {
+    "effectiveYield": {
+     "score": 2,
+     "reasoning": "Deed-only; no interest paid to buyers, auctions bid prices toward market"
+    },
+    "penaltyStructure": {
+     "score": 1,
+     "reasoning": "No investor penalty/interest; redemption penalties are county revenue"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "Redemption ends the business day before sale (RTC 3707); pure deed state"
+    },
+    "auctionAccess": {
+     "score": 8,
+     "reasoning": "County online auctions (Bid4Assets); any person may purchase per RTC 3691"
+    },
+    "competition": {
+     "score": 3,
+     "reasoning": "Heavily bid statewide online sales push prices near retail value"
+    },
+    "capitalFloor": {
+     "score": 3,
+     "reasoning": "Full purchase price due; CA minimum bids and deposits run thousands"
+    },
+    "processRisk": {
+     "score": 3,
+     "reasoning": "1yr sale-challenge window; insurers commonly demand quiet title first"
+    },
+    "legalStability": {
+     "score": 8,
+     "reasoning": "RTC Part 6 scheme stable for decades; 5yr/3yr default timelines fixed"
+    },
+    "otcAvailability": {
+     "score": 2,
+     "reasoning": "No investor OTC; Chapter 8 non-auction sales limited to agencies/nonprofits"
+    }
+   },
+   "sources": [
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=3691",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=3707"
+   ]
+  },
+  {
+   "slug": "colorado",
+   "state": "Colorado",
+   "system": "lien",
+   "investorAccessible": true,
+   "maxRate": "Fed discount rate +9 pts, set each Sept 1 (14% for 2025); premium bids earn 0%",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "3yr from sale before treasurer's deed application",
+   "statute": "CRS §39-12-101",
+   "officialSource": "https://www.co.routt.co.us/1004/Tax-Lien-Sale",
+   "onlinePortals": [
+    "RealAuction"
+   ],
+   "compositeScore": 5.1,
+   "scores": {
+    "effectiveYield": {
+     "score": 4,
+     "reasoning": "14% (2025) rate but premium bids earn nothing and are not refunded"
+    },
+    "penaltyStructure": {
+     "score": 3,
+     "reasoning": "Simple interest only; rate reset yearly at discount rate +9 pts (39-12-103)"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "3yrs from sale before treasurer's deed application"
+    },
+    "auctionAccess": {
+     "score": 8,
+     "reasoning": "Most counties run online sales (RealAuction/GovEase); county-level auctions"
+    },
+    "competition": {
+     "score": 4,
+     "reasoning": "Online premium bidding is aggressive; premiums erode net yield"
+    },
+    "capitalFloor": {
+     "score": 9,
+     "reasoning": "Certificates sell at taxes+fees; small liens plentiful in rural counties"
+    },
+    "processRisk": {
+     "score": 4,
+     "reasoning": "HB24-1056 deed path now ends in public auction; holder may get cash, not land"
+    },
+    "legalStability": {
+     "score": 4,
+     "reasoning": "Post-Tyler HB24-1056 (eff. 7/2024) rewrote the treasurer's deed process"
+    },
+    "otcAvailability": {
+     "score": 8,
+     "reasoning": "County-held certificates assignable OTC from treasurers year-round"
+    }
+   },
+   "sources": [
+    "https://www.larimer.gov/treasurer/thirdparty/liens/sale",
+    "https://www.co.routt.co.us/1004/Tax-Lien-Sale"
+   ]
+  },
+  {
+   "slug": "connecticut",
+   "state": "Connecticut",
+   "system": "redeemable-deed",
+   "investorAccessible": true,
+   "maxRate": "18%/yr flat on total purchase price from sale date",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "6mo (60d if abandoned, by ordinance)",
+   "statute": "Conn. Gen. Stat. §12-195",
+   "officialSource": "https://codes.findlaw.com/ct/title-12-taxation/ct-gen-st-sect-12-157/",
+   "onlinePortals": [
+    "Town sites"
+   ],
+   "compositeScore": 5.7,
+   "scores": {
+    "effectiveYield": {
+     "score": 7,
+     "reasoning": "18%/yr on full purchase price with max 6mo window; strong realized return"
+    },
+    "penaltyStructure": {
+     "score": 5,
+     "reasoning": "18% per annum accrues from sale date; not a flat day-1 penalty"
+    },
+    "redemption": {
+     "score": 9,
+     "reasoning": "Deed held unrecorded 6mo (60d abandoned) then records (CGS 12-157)"
+    },
+    "auctionAccess": {
+     "score": 4,
+     "reasoning": "Town-by-town in-person sales on irregular schedules; no statewide portal"
+    },
+    "competition": {
+     "score": 6,
+     "reasoning": "Local auctions; $5k deposits and full-price bids thin the bidder pool"
+    },
+    "capitalFloor": {
+     "score": 3,
+     "reasoning": "Full winning bid due within ~5 days; property-level capital needed"
+    },
+    "processRisk": {
+     "score": 7,
+     "reasoning": "Deed auto-records after redemption window; no foreclosure suit required"
+    },
+    "legalStability": {
+     "score": 8,
+     "reasoning": "CGS 12-157 extra-judicial sale process long-settled, minor updates only"
+    },
+    "otcAvailability": {
+     "score": 2,
+     "reasoning": "No OTC/assignment inventory; only scheduled municipal sales"
+    }
+   },
+   "sources": [
+    "https://codes.findlaw.com/ct/title-12-taxation/ct-gen-st-sect-12-157/",
+    "https://cttaxsales.com/"
+   ]
+  },
+  {
+   "slug": "delaware",
+   "state": "Delaware",
+   "system": "redeemable-deed",
+   "investorAccessible": true,
+   "maxRate": "15% penalty",
+   "penaltyOrInterest": "penalty",
+   "redemptionPeriod": "60d to 1yr",
+   "statute": "Del. Code tit.9 §8723",
+   "officialSource": "https://delcode.delaware.gov/title9/c087/",
+   "onlinePortals": [
+    "Sheriff sites"
+   ],
+   "compositeScore": 5.9,
+   "scores": {
+    "effectiveYield": {
+     "score": 8,
+     "reasoning": "15% flat premium inside a 60-day monition window; high annualized return"
+    },
+    "penaltyStructure": {
+     "score": 8,
+     "reasoning": "Flat 15% of purchase price owed even on immediate redemption (9 Del.C. 8729)"
+    },
+    "redemption": {
+     "score": 9,
+     "reasoning": "60 days from court approval of monition sale; capital recycles fast"
+    },
+    "auctionAccess": {
+     "score": 3,
+     "reasoning": "In-person sheriff sales in 3 counties; no online statewide portal"
+    },
+    "competition": {
+     "score": 6,
+     "reasoning": "Small-state niche sheriff sales; mostly local buyers"
+    },
+    "capitalFloor": {
+     "score": 3,
+     "reasoning": "Full bid price due at sheriff sale; property-level capital required"
+    },
+    "processRisk": {
+     "score": 6,
+     "reasoning": "Superior Court confirms sale; clean title path but deed petition needed"
+    },
+    "legalStability": {
+     "score": 8,
+     "reasoning": "Title 9 Ch.87 monition scheme stable for decades"
+    },
+    "otcAvailability": {
+     "score": 2,
+     "reasoning": "No OTC certificates; only scheduled county sheriff sales"
+    }
+   },
+   "sources": [
+    "https://delcode.delaware.gov/title9/c087/sc02/index.html"
+   ]
+  },
+  {
+   "slug": "district-of-columbia",
+   "state": "District of Columbia",
+   "system": "lien",
+   "investorAccessible": true,
+   "maxRate": "18%/yr (1.5%/mo) fixed; premium bidding, no interest on surplus",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "6mo",
+   "statute": "DC Code §47-1330",
+   "officialSource": "https://code.dccouncil.gov/us/dc/council/code/sections/47-1348",
+   "onlinePortals": [
+    "DC OTR"
+   ],
+   "compositeScore": 5.3,
+   "scores": {
+    "effectiveYield": {
+     "score": 5,
+     "reasoning": "1.5%/mo on tax amount only; surplus premium bids earn 0% (47-1348)"
+    },
+    "penaltyStructure": {
+     "score": 5,
+     "reasoning": "Interest per month-or-part starting month after sale; no flat penalty"
+    },
+    "redemption": {
+     "score": 9,
+     "reasoning": "Foreclosure suit allowed 6 months after sale; short capital cycle"
+    },
+    "auctionAccess": {
+     "score": 5,
+     "reasoning": "One annual OTR sale in a single jurisdiction; simple registration"
+    },
+    "competition": {
+     "score": 3,
+     "reasoning": "Institutional buyers dominate; surplus premiums bid high on DC parcels"
+    },
+    "capitalFloor": {
+     "score": 6,
+     "reasoning": "Lien equals taxes owed, but DC tax bills plus surplus raise entry cost"
+    },
+    "processRisk": {
+     "score": 4,
+     "reasoning": "Judicial foreclosure in DC Superior Court; fee caps, strict notice rules"
+    },
+    "legalStability": {
+     "score": 6,
+     "reasoning": "Ch.13A (2001) core stable; homeowner-protection amendments since 2014"
+    },
+    "otcAvailability": {
+     "score": 5,
+     "reasoning": "Mayor may assign unsold certificates (47-1348); limited OTC inventory"
+    }
+   },
+   "sources": [
+    "https://code.dccouncil.gov/us/dc/council/code/sections/47-1348",
+    "https://www.antonlegal.com/blog/guide-to-perfecting-title-following-district-of-columbia-tax-sale-2/"
+   ]
+  },
+  {
+   "slug": "florida",
+   "state": "Florida",
+   "system": "lien",
+   "investorAccessible": true,
+   "maxRate": "18% max 5% min",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "2yr",
+   "statute": "Fla. Stat. §197.432",
+   "officialSource": "https://www.flsenate.gov/laws/statutes/2024/197.432",
+   "onlinePortals": [
+    "RealAuction",
+    "GrantStreet"
+   ],
+   "compositeScore": 6.6,
+   "scores": {
+    "effectiveYield": {
+     "score": 6,
+     "reasoning": "18% ceiling bid down to ~0.25% online; 5% min penalty floor rescues most redemptions"
+    },
+    "penaltyStructure": {
+     "score": 5,
+     "reasoning": "5% minimum penalty on redemption regardless of bid, but 0% winning bids earn nothing"
+    },
+    "redemption": {
+     "score": 5,
+     "reasoning": "2yr hold before certificate holder can apply for tax deed"
+    },
+    "auctionAccess": {
+     "score": 9,
+     "reasoning": "Nearly all 67 counties auction certs online (LienHub/RealAuction) each June"
+    },
+    "competition": {
+     "score": 3,
+     "reasoning": "Heavily institutional; funds bid rates to 0.25% in metro counties"
+    },
+    "capitalFloor": {
+     "score": 9,
+     "reasoning": "Certificates start at a few hundred dollars; small liens plentiful"
+    },
+    "processRisk": {
+     "score": 6,
+     "reasoning": "After 2yr must apply for tax deed; property goes to deed auction, not to holder"
+    },
+    "legalStability": {
+     "score": 9,
+     "reasoning": "Ch.197 certificate framework stable for decades, minor tweaks only"
+    },
+    "otcAvailability": {
+     "score": 7,
+     "reasoning": "County-held certs struck at 18% purchasable OTC through tax collectors"
+    }
+   },
+   "sources": [
+    "https://www.flsenate.gov/laws/statutes/2024/197.432",
+    "https://taxcollector.charlottecountyfl.gov/delinquent-tax"
+   ]
+  },
+  {
+   "slug": "georgia",
+   "state": "Georgia",
+   "system": "redeemable-deed",
+   "investorAccessible": true,
+   "maxRate": "20% penalty flat",
+   "penaltyOrInterest": "penalty",
+   "redemptionPeriod": "12mo",
+   "statute": "Ga. Code Ann. §48-4-42",
+   "officialSource": "https://law.justia.com/codes/georgia/title-48/chapter-4/",
+   "onlinePortals": [
+    "RealAuction"
+   ],
+   "compositeScore": 5.7,
+   "scores": {
+    "effectiveYield": {
+     "score": 8,
+     "reasoning": "Flat 20% premium in yr 1 even on day-1 redemption; +10%/yr thereafter"
+    },
+    "penaltyStructure": {
+     "score": 9,
+     "reasoning": "20% of full bid due on any first-year redemption (O.C.G.A. 48-4-42)"
+    },
+    "redemption": {
+     "score": 7,
+     "reasoning": "12mo minimum; purchaser may then bar redemption via notice"
+    },
+    "auctionAccess": {
+     "score": 5,
+     "reasoning": "First-Tuesday courthouse-steps sales; only some counties on GovEase"
+    },
+    "competition": {
+     "score": 5,
+     "reasoning": "Metro Atlanta deeds bid up hard; rural courthouse sales thinner"
+    },
+    "capitalFloor": {
+     "score": 3,
+     "reasoning": "Redeemable deed: full winning bid price due upfront"
+    },
+    "processRisk": {
+     "score": 4,
+     "reasoning": "Barment notices (48-4-45) then quiet title needed for clean deed"
+    },
+    "legalStability": {
+     "score": 8,
+     "reasoning": "Premium structure unchanged since 2002 amendments"
+    },
+    "otcAvailability": {
+     "score": 2,
+     "reasoning": "No OTC program; unsold parcels rare"
+    }
+   },
+   "sources": [
+    "https://www.accgov.com/1717/Right-of-Redemption",
+    "https://law.justia.com/codes/georgia/title-48/chapter-4/article-3/section-48-4-42/"
+   ]
+  },
+  {
+   "slug": "hawaii",
+   "state": "Hawaii",
+   "system": "redeemable-deed",
+   "investorAccessible": true,
+   "maxRate": "Up to 12%",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "1yr",
+   "statute": "HRS §231-67",
+   "officialSource": "https://law.justia.com/codes/hawaii/title-14/chapter-231/section-231-67/",
+   "onlinePortals": [
+    "County sites"
+   ],
+   "compositeScore": 4.6,
+   "scores": {
+    "effectiveYield": {
+     "score": 5,
+     "reasoning": "12% simple on full bid if redeemed; competitive bids inflate the basis"
+    },
+    "penaltyStructure": {
+     "score": 5,
+     "reasoning": "12%/yr interest only, no flat penalty; slow accrual on large principal"
+    },
+    "redemption": {
+     "score": 7,
+     "reasoning": "1yr from sale (or from recording if deed recorded >60 days late)"
+    },
+    "auctionAccess": {
+     "score": 3,
+     "reasoning": "Infrequent in-person auctions in 4 counties; no online portal"
+    },
+    "competition": {
+     "score": 6,
+     "reasoning": "Few sales and remote venues thin bidders, but parcels bid near value"
+    },
+    "capitalFloor": {
+     "score": 2,
+     "reasoning": "Full property purchase price due at auction"
+    },
+    "processRisk": {
+     "score": 4,
+     "reasoning": "Owner redeems by paying purchaser directly; buyer handles title cleanup"
+    },
+    "legalStability": {
+     "score": 7,
+     "reasoning": "Old redemption statute stable; administration varies by county"
+    },
+    "otcAvailability": {
+     "score": 2,
+     "reasoning": "No OTC or assignment lists exist"
+    }
+   },
+   "sources": [
+    "https://www.mauicounty.gov/faq.aspx?TID=115",
+    "https://law.justia.com/codes/hawaii/title-14/chapter-231/section-231-67/"
+   ]
+  },
+  {
+   "slug": "idaho",
+   "state": "Idaho",
+   "system": "deed",
+   "investorAccessible": false,
+   "maxRate": "N/A",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "N/A",
+   "statute": "Idaho Code §63-1001",
+   "officialSource": "https://legislature.idaho.gov/",
+   "onlinePortals": [
+    "County sites"
+   ],
+   "compositeScore": 3.1,
+   "scores": {
+    "effectiveYield": {
+     "score": 1,
+     "reasoning": "No lien certificates sold; retail lien market doesn't exist in Idaho"
+    },
+    "penaltyStructure": {
+     "score": 1,
+     "reasoning": "No interest/penalty instrument for investors; retail market doesn't exist"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "Owner redemption ends when county deed auction opens; nothing recycles"
+    },
+    "auctionAccess": {
+     "score": 2,
+     "reasoning": "Only in-person county auctions of tax-deeded parcels (I.C. 31-808)"
+    },
+    "competition": {
+     "score": 6,
+     "reasoning": "Sparse annual rural deed auctions draw modest bidder pools"
+    },
+    "capitalFloor": {
+     "score": 2,
+     "reasoning": "Full parcel price at deed auction; no retail lien market exists"
+    },
+    "processRisk": {
+     "score": 4,
+     "reasoning": "Quitclaim deed; title insurance typically unavailable ~3yrs after purchase"
+    },
+    "legalStability": {
+     "score": 8,
+     "reasoning": "Title 63 ch.10 tax-deed process long stable"
+    },
+    "otcAvailability": {
+     "score": 2,
+     "reasoning": "No certificate inventory; retail lien market doesn't exist"
+    }
+   },
+   "sources": [
+    "https://www.kcgov.us/528/Property-Tax-Sale",
+    "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch10/sect63-1005/"
+   ]
+  },
+  {
+   "slug": "illinois",
+   "state": "Illinois",
+   "system": "lien",
+   "investorAccessible": true,
+   "maxRate": "9% max penalty bid per 6-month period (P.A. 102-363, eff. 1-1-2022)",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "1yr (vacant/commercial) to 2.5yr (default)",
+   "statute": "35 ILCS 200/21-215",
+   "officialSource": "https://ilga.gov/documents/legislation/ilcs/documents/003502000K21-215.htm",
+   "onlinePortals": [
+    "Bid4Assets"
+   ],
+   "compositeScore": 5.1,
+   "scores": {
+    "effectiveYield": {
+     "score": 7,
+     "reasoning": "Penalty repeats each 6mo (max 9%/period since 2022) but Cook bids near 0%"
+    },
+    "penaltyStructure": {
+     "score": 7,
+     "reasoning": "Full 6-month penalty tranche owed even if redeemed on day 1 of period"
+    },
+    "redemption": {
+     "score": 4,
+     "reasoning": "2.5yr default (1yr vacant/commercial); slow capital recycle"
+    },
+    "auctionAccess": {
+     "score": 5,
+     "reasoning": "County-by-county sales with registration/deposits; Cook uses R.A.M.S. sealed bids"
+    },
+    "competition": {
+     "score": 3,
+     "reasoning": "Institutional buyers dominate; penalty bid to 0% on quality parcels"
+    },
+    "capitalFloor": {
+     "score": 7,
+     "reasoning": "Individual liens can be small, but deposits and registration add friction"
+    },
+    "processRisk": {
+     "score": 3,
+     "reasoning": "Strict take-notice/petition traps; sale-in-error can void the investment"
+    },
+    "legalStability": {
+     "score": 4,
+     "reasoning": "Max bid halved to 9% in 2022; post-Tyler litigation still reshaping code"
+    },
+    "otcAvailability": {
+     "score": 6,
+     "reasoning": "Unsold/forfeited liens resold via county trustee lists"
+    }
+   },
+   "sources": [
+    "https://ilga.gov/documents/legislation/ilcs/documents/003502000K21-215.htm",
+    "https://ilga.gov/documents/legislation/ilcs/documents/003502000K21-350.htm"
+   ]
+  },
+  {
+   "slug": "indiana",
+   "state": "Indiana",
+   "system": "lien",
+   "investorAccessible": true,
+   "maxRate": "10%/15% flat penalty on min bid + 5%/yr on overbid (premium bidding, not bid-down)",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "1yr",
+   "statute": "Ind. Code §6-1.1-24",
+   "officialSource": "https://taxsalewealth.com/indiana-tax-lien.html",
+   "onlinePortals": [
+    "Bid4Assets",
+    "ZeusAuction"
+   ],
+   "compositeScore": 6.4,
+   "scores": {
+    "effectiveYield": {
+     "score": 6,
+     "reasoning": "10-15% flat penalty on min bid inside 1yr; 5%/yr overbid drags blended yield"
+    },
+    "penaltyStructure": {
+     "score": 7,
+     "reasoning": "Flat 10% (redeemed ≤6mo) / 15% (6-12mo) of min bid regardless of day"
+    },
+    "redemption": {
+     "score": 7,
+     "reasoning": "1yr from sale; 120 days at commissioners' certificate sales"
+    },
+    "auctionAccess": {
+     "score": 7,
+     "reasoning": "Many counties run fall sales online via SRI/Zeus Auction"
+    },
+    "competition": {
+     "score": 5,
+     "reasoning": "Premium bidding pushes overbids up in Marion/Lake; rural sales thinner"
+    },
+    "capitalFloor": {
+     "score": 8,
+     "reasoning": "Min bids often a few hundred dollars of taxes plus costs"
+    },
+    "processRisk": {
+     "score": 4,
+     "reasoning": "IC 6-1.1-25-4.5/4.6 notices + court petition; defects forfeit the deed"
+    },
+    "legalStability": {
+     "score": 7,
+     "reasoning": "IC 6-1.1-24/25 framework stable with periodic tweaks"
+    },
+    "otcAvailability": {
+     "score": 7,
+     "reasoning": "Commissioners' certificate sales resell leftovers at reduced min bids"
+    }
+   },
+   "sources": [
+    "https://taxsalewealth.com/indiana-tax-lien.html",
+    "https://law.justia.com/codes/indiana/title-6/article-1-1/chapter-25/section-6-1-1-25-4/"
+   ]
+  },
+  {
+   "slug": "iowa",
+   "state": "Iowa",
+   "system": "lien",
+   "investorAccessible": true,
+   "maxRate": "2%/month 24%/yr",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "1yr 9mo",
+   "statute": "Iowa Code §447.1",
+   "officialSource": "https://www.legis.iowa.gov/",
+   "onlinePortals": [
+    "County treasurer sites"
+   ],
+   "compositeScore": 6.4,
+   "scores": {
+    "effectiveYield": {
+     "score": 8,
+     "reasoning": "2%/mo (24%/yr) never bid down; bidding is on % ownership instead"
+    },
+    "penaltyStructure": {
+     "score": 6,
+     "reasoning": "Fraction of a month counts as a full month; otherwise straight interest"
+    },
+    "redemption": {
+     "score": 5,
+     "reasoning": "1yr9mo before 90-day expiration notice can be served (~2yr total)"
+    },
+    "auctionAccess": {
+     "score": 6,
+     "reasoning": "Annual June sale in all 99 counties; many now run online"
+    },
+    "competition": {
+     "score": 4,
+     "reasoning": "Funds flood registrations; random allocation with 1%-ownership bids"
+    },
+    "capitalFloor": {
+     "score": 9,
+     "reasoning": "Certificates from a few hundred dollars; subsequent taxes also earn 24%"
+    },
+    "processRisk": {
+     "score": 6,
+     "reasoning": "90-day notice then deed; undivided-interest wins complicate title"
+    },
+    "legalStability": {
+     "score": 8,
+     "reasoning": "Ch.446-448 sale/redemption mechanics stable for decades"
+    },
+    "otcAvailability": {
+     "score": 6,
+     "reasoning": "Adjourned/public-bidder certificates assignable from county treasurers"
+    }
+   },
+   "sources": [
+    "https://www.iowataxandtags.org/property-tax/tax-sale/",
+    "https://www.legis.iowa.gov/docs/code/447.pdf"
+   ]
+  },
+  {
+   "slug": "kansas",
+   "state": "Kansas",
+   "system": "deed",
+   "investorAccessible": false,
+   "maxRate": "N/A",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "N/A",
+   "statute": "K.S.A. §79-2801 (judicial foreclosure and sheriff's sale is the operative investor-facing statute)",
+   "officialSource": "https://ksrevisor.gov/statutes/chapters/ch79/079_028_0001.html",
+   "onlinePortals": [
+    "County sites"
+   ],
+   "compositeScore": 3.2,
+   "scores": {
+    "effectiveYield": {
+     "score": 1,
+     "reasoning": "County bids in liens itself and forecloses; retail lien market doesn't exist"
+    },
+    "penaltyStructure": {
+     "score": 1,
+     "reasoning": "No investor interest/penalty instrument; retail lien market doesn't exist"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "Redemption cut off before sheriff's sale; nothing recycles post-sale"
+    },
+    "auctionAccess": {
+     "score": 2,
+     "reasoning": "Only county-initiated judicial-foreclosure sheriff auctions, in person"
+    },
+    "competition": {
+     "score": 6,
+     "reasoning": "In-person sheriff sales; modest bidder pools outside Johnson/Sedgwick"
+    },
+    "capitalFloor": {
+     "score": 2,
+     "reasoning": "Full price at sheriff's sale; no retail lien market exists"
+    },
+    "processRisk": {
+     "score": 5,
+     "reasoning": "County's court foreclosure precedes sale; sheriff's deed fairly clean, caveat emptor"
+    },
+    "legalStability": {
+     "score": 8,
+     "reasoning": "K.S.A. 79-28xx foreclosure scheme long stable"
+    },
+    "otcAvailability": {
+     "score": 2,
+     "reasoning": "No certificate inventory; retail lien market doesn't exist"
+    }
+   },
+   "sources": [
+    "https://ksrevisor.gov/statutes/chapters/ch79/079_028_0001.html",
+    "https://www.snco.gov/counselor/tax_sale.php"
+   ]
+  },
+  {
+   "slug": "kentucky",
+   "state": "Kentucky",
+   "system": "lien",
+   "investorAccessible": true,
+   "maxRate": "12% simple interest flat, certs sold at face value — not bid down (KRS 134.125)",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "1yr",
+   "statute": "KRS §134.420",
+   "officialSource": "https://kentoncountykyclerk.com/delinquent-property-tax/",
+   "onlinePortals": [
+    "County sheriff sites"
+   ],
+   "compositeScore": 5.4,
+   "scores": {
+    "effectiveYield": {
+     "score": 6,
+     "reasoning": "12% simple from purchase at face value; no bid-down erosion of the rate"
+    },
+    "penaltyStructure": {
+     "score": 4,
+     "reasoning": "Interest-only 12%/yr (KRS 134.125); no flat penalty kicker"
+    },
+    "redemption": {
+     "score": 5,
+     "reasoning": "1yr tolling before TPP suit (KRS 134.546); payoff possible until foreclosure"
+    },
+    "auctionAccess": {
+     "score": 4,
+     "reasoning": "Annual county clerk lottery sales; DOR registration and purchase caps"
+    },
+    "competition": {
+     "score": 5,
+     "reasoning": "Lottery/priority allocation; large TPPs lock up priority certificates"
+    },
+    "capitalFloor": {
+     "score": 8,
+     "reasoning": "Certs at face value from low hundreds; registration fees to buy in volume"
+    },
+    "processRisk": {
+     "score": 4,
+     "reasoning": "Judicial foreclosure required to enforce; 45-day notices and fee rules"
+    },
+    "legalStability": {
+     "score": 7,
+     "reasoning": "2009-2012 third-party-purchaser reforms settled; stable since"
+    },
+    "otcAvailability": {
+     "score": 6,
+     "reasoning": "Unsold certificates purchasable from county clerks year-round after sale"
+    }
+   },
+   "sources": [
+    "https://kentoncountykyclerk.com/delinquent-property-tax/",
+    "https://laruecountyky.gov/departments/county-attorney/delinquent-property-tax-collection/",
+    "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=53112"
+   ]
+  },
+  {
+   "slug": "louisiana",
+   "state": "Louisiana",
+   "system": "lien",
+   "investorAccessible": true,
+   "maxRate": "Bid-down monthly interest 1% to 0.7% (12% to 8.4%/yr) + flat 5% penalty (system eff. 1/1/2026)",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "3yr",
+   "statute": "Unverified: 2024 overhaul act (eff. 1/1/2026) rewrote the tax sale articles; statute text could not be fetched (Justia 403), so exact section not confirmed",
+   "officialSource": "https://jurisdeed.com/blog/major-overhaul-for-louisiana-tax-lien-investors--what-you-need-to-know",
+   "onlinePortals": [
+    "RealAuction",
+    "Bid4Assets"
+   ],
+   "compositeScore": 4.9,
+   "scores": {
+    "effectiveYield": {
+     "score": 6,
+     "reasoning": "8.4-12%/yr bid-down floored at 0.7%/mo, plus flat 5% penalty"
+    },
+    "penaltyStructure": {
+     "score": 6,
+     "reasoning": "Flat 5% penalty owed even on day-1 redemption, plus monthly interest"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "3yr redemption window locks capital for years"
+    },
+    "auctionAccess": {
+     "score": 6,
+     "reasoning": "Parish-run sales, several online; first lien-format auctions under 2026 law"
+    },
+    "competition": {
+     "score": 5,
+     "reasoning": "Brand-new 2026 regime; historic LA title risk kept institutions cautious"
+    },
+    "capitalFloor": {
+     "score": 8,
+     "reasoning": "Certificates priced at back-tax amounts, often a few hundred dollars"
+    },
+    "processRisk": {
+     "score": 4,
+     "reasoning": "Untested foreclosure-suit process; mandatory notices, 7yr enforcement limit"
+    },
+    "legalStability": {
+     "score": 3,
+     "reasoning": "Complete statutory overhaul effective 1/1/2026; no case law yet"
+    },
+    "otcAvailability": {
+     "score": 4,
+     "reasoning": "Adjudicated-property lists exist; no established OTC lien inventory yet"
+    }
+   },
+   "sources": [
+    "https://jurisdeed.com/blog/major-overhaul-for-louisiana-tax-lien-investors--what-you-need-to-know"
+   ]
+  },
+  {
+   "slug": "maine",
+   "state": "Maine",
+   "system": "deed",
+   "investorAccessible": false,
+   "maxRate": "N/A",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "18mo",
+   "statute": "36 MRS §942",
+   "officialSource": "https://legislature.maine.gov/",
+   "onlinePortals": [
+    "Municipality sites"
+   ],
+   "compositeScore": 2.2,
+   "scores": {
+    "effectiveYield": {
+     "score": 1,
+     "reasoning": "Municipality holds the lien mortgage; retail lien market doesn't exist"
+    },
+    "penaltyStructure": {
+     "score": 1,
+     "reasoning": "Interest accrues to the town; no retail lien market exists"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "18mo auto-foreclosure benefits towns; retail market doesn't exist"
+    },
+    "auctionAccess": {
+     "score": 1,
+     "reasoning": "No lien auctions held; towns keep liens, retail market doesn't exist"
+    },
+    "competition": {
+     "score": 1,
+     "reasoning": "Nothing for investors to bid on; retail lien market doesn't exist"
+    },
+    "capitalFloor": {
+     "score": 3,
+     "reasoning": "No liens to buy; retail market doesn't exist, only town property resales"
+    },
+    "processRisk": {
+     "score": 3,
+     "reasoning": "Automatic municipal foreclosure (§943); investor has no process to run"
+    },
+    "legalStability": {
+     "score": 6,
+     "reasoning": "Old statute, but post-Tyler foreclosed-sale rules (§943-C) are recent"
+    },
+    "otcAvailability": {
+     "score": 2,
+     "reasoning": "No OTC lien lists; retail market doesn't exist there"
+    }
+   },
+   "sources": [
+    "https://legislature.maine.gov/statutes/36/title36sec943.html"
+   ]
+  },
+  {
+   "slug": "maryland",
+   "state": "Maryland",
+   "system": "lien",
+   "investorAccessible": true,
+   "maxRate": "6-18%/yr, set per county (Balt City 18%, Anne Arundel 18%, Balt County 12%, Allegany 6%)",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "Redeemable until foreclosure decree; suit filable after 6mo (9mo Balt City owner-occupied)",
+   "statute": "Md. Code Tax-Prop. §14-801",
+   "officialSource": "https://dat.maryland.gov/pages/tax-sale-information.aspx",
+   "onlinePortals": [
+    "RealAuction"
+   ],
+   "compositeScore": 5.7,
+   "scores": {
+    "effectiveYield": {
+     "score": 6,
+     "reasoning": "Up to 18% county-set, but premium bids earn 0% in big-county sales"
+    },
+    "penaltyStructure": {
+     "score": 4,
+     "reasoning": "Interest-only redemption at 6-18%/yr; no flat day-1 penalty"
+    },
+    "redemption": {
+     "score": 8,
+     "reasoning": "Foreclosure filable 6mo after sale (9mo Balt City); capital recycles fast"
+    },
+    "auctionAccess": {
+     "score": 7,
+     "reasoning": "Baltimore City/County and others online; smaller counties in-person"
+    },
+    "competition": {
+     "score": 3,
+     "reasoning": "Institutional funds dominate large-county online sales"
+    },
+    "capitalFloor": {
+     "score": 8,
+     "reasoning": "Certificates start near back-tax amounts, a few hundred dollars"
+    },
+    "processRisk": {
+     "score": 4,
+     "reasoning": "Judicial foreclosure of redemption right with strict notice rules"
+    },
+    "legalStability": {
+     "score": 7,
+     "reasoning": "Mature Tax-Prop Title 14 Part III scheme; only incremental tweaks"
+    },
+    "otcAvailability": {
+     "score": 4,
+     "reasoning": "Limited leftover/assignment certificate lists in some counties"
+    }
+   },
+   "sources": [
+    "https://dat.maryland.gov/pages/tax-sale-information.aspx"
+   ]
+  },
+  {
+   "slug": "massachusetts",
+   "state": "Massachusetts",
+   "system": "hybrid",
+   "investorAccessible": false,
+   "maxRate": "8% per annum on tax titles (MGL c.60 §62; cut from 16% for titles after 11/1/2024)",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "12mo wait before Land Court foreclosure petition; redeemable until decree",
+   "statute": "MGL ch.60 §1",
+   "officialSource": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter60/Section65",
+   "onlinePortals": [
+    "Municipality sites"
+   ],
+   "compositeScore": 1.9,
+   "scores": {
+    "effectiveYield": {
+     "score": 1,
+     "reasoning": "8% titles go to bulk assignees; retail lien market doesn't exist"
+    },
+    "penaltyStructure": {
+     "score": 1,
+     "reasoning": "8% simple interest, but retail market doesn't exist there"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "12mo wait then Land Court; moot, retail market doesn't exist"
+    },
+    "auctionAccess": {
+     "score": 1,
+     "reasoning": "Takings + bulk assignments; no retail auction market exists"
+    },
+    "competition": {
+     "score": 1,
+     "reasoning": "Bulk institutional assignments only; retail market doesn't exist"
+    },
+    "capitalFloor": {
+     "score": 3,
+     "reasoning": "Portfolio-scale assignments; no small retail entry, market doesn't exist"
+    },
+    "processRisk": {
+     "score": 3,
+     "reasoning": "Land Court foreclosure plus new excess-equity return duties"
+    },
+    "legalStability": {
+     "score": 3,
+     "reasoning": "Ch.60 rewritten eff. 11/2024: rate 16%->8%, 12mo wait, equity rules"
+    },
+    "otcAvailability": {
+     "score": 2,
+     "reasoning": "No OTC lien lists; retail market doesn't exist there"
+    }
+   },
+   "sources": [
+    "https://malegislature.gov/laws/generallaws/parti/titleix/chapter60/section62",
+    "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter60/Section65"
+   ]
+  },
+  {
+   "slug": "michigan",
+   "state": "Michigan",
+   "system": "deed",
+   "investorAccessible": false,
+   "maxRate": "N/A",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "Until March 31 following the foreclosure judgment (roughly 2yr from delinquency); then title vests in the county",
+   "statute": "MCL §211.78",
+   "officialSource": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-78g",
+   "onlinePortals": [
+    "Bid4Assets"
+   ],
+   "compositeScore": 2.1,
+   "scores": {
+    "effectiveYield": {
+     "score": 1,
+     "reasoning": "Counties keep all interest; retail lien market doesn't exist"
+    },
+    "penaltyStructure": {
+     "score": 1,
+     "reasoning": "Interest/fees accrue to county treasurer; retail market doesn't exist"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "Redemption ends Mar 31 after judgment; investors never hold the lien"
+    },
+    "auctionAccess": {
+     "score": 1,
+     "reasoning": "County deed auctions only; retail lien market doesn't exist"
+    },
+    "competition": {
+     "score": 2,
+     "reasoning": "Deed auctions are crowded; lien product doesn't exist at all"
+    },
+    "capitalFloor": {
+     "score": 2,
+     "reasoning": "Full-price deed purchases only; retail lien market doesn't exist"
+    },
+    "processRisk": {
+     "score": 3,
+     "reasoning": "County forecloses before auction; investor has no lien-to-deed path"
+    },
+    "legalStability": {
+     "score": 5,
+     "reasoning": "Post-Rafaeli surplus-claim regime (MCL 211.78t) still settling"
+    },
+    "otcAvailability": {
+     "score": 2,
+     "reasoning": "No OTC liens; retail lien market doesn't exist there"
+    }
+   },
+   "sources": [
+    "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-78g"
+   ]
+  },
+  {
+   "slug": "minnesota",
+   "state": "Minnesota",
+   "system": "deed",
+   "investorAccessible": false,
+   "maxRate": "N/A",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "3yr from tax-judgment sale to the state (1yr for certain targeted/non-homestead classes) per Minn. Stat. 281.17",
+   "statute": "Minn. Stat. §279.01",
+   "officialSource": "https://www.revisor.mn.gov/statutes/cite/281.17",
+   "onlinePortals": [
+    "County sites"
+   ],
+   "compositeScore": 1.9,
+   "scores": {
+    "effectiveYield": {
+     "score": 1,
+     "reasoning": "State forfeiture system; retail lien market doesn't exist"
+    },
+    "penaltyStructure": {
+     "score": 1,
+     "reasoning": "No investor-held liens; retail market doesn't exist there"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "3yr redemption runs to the state (281.17); no investor role"
+    },
+    "auctionAccess": {
+     "score": 1,
+     "reasoning": "Only post-forfeiture land sales; retail lien market doesn't exist"
+    },
+    "competition": {
+     "score": 2,
+     "reasoning": "No lien product to bid on; county-run land sales only"
+    },
+    "capitalFloor": {
+     "score": 2,
+     "reasoning": "Full-price forfeited-land purchases; retail lien market doesn't exist"
+    },
+    "processRisk": {
+     "score": 3,
+     "reasoning": "County/state-run forfeiture; investor has no lien-to-deed path"
+    },
+    "legalStability": {
+     "score": 3,
+     "reasoning": "Tyler v. Hennepin struck old law; 2024 rewrite and payouts in flux"
+    },
+    "otcAvailability": {
+     "score": 2,
+     "reasoning": "No OTC liens; retail market doesn't exist there"
+    }
+   },
+   "sources": [
+    "https://www.revisor.mn.gov/statutes/cite/281.17"
+   ]
+  },
+  {
+   "slug": "mississippi",
+   "state": "Mississippi",
+   "system": "lien",
+   "investorAccessible": true,
+   "maxRate": "18%/yr (1.5%/mo) on face value; premium/overbid amounts earn 0% and are forfeited",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "2yr",
+   "statute": "Miss. Code §27-41-1",
+   "officialSource": "https://govease.helpscoutdocs.com/article/130-mississippi-tax-sale-overview",
+   "onlinePortals": [
+    "Chancery clerk sites"
+   ],
+   "compositeScore": 6.6,
+   "scores": {
+    "effectiveYield": {
+     "score": 7,
+     "reasoning": "18% (1.5%/mo) on face; overbids earn 0% and dilute real returns"
+    },
+    "penaltyStructure": {
+     "score": 5,
+     "reasoning": "Interest accrues monthly, so day-1 redemption pays very little"
+    },
+    "redemption": {
+     "score": 5,
+     "reasoning": "2yr redemption before purchaser can pursue the deed"
+    },
+    "auctionAccess": {
+     "score": 9,
+     "reasoning": "GovEase online premium-bid sales across most counties (Apr/Aug)"
+    },
+    "competition": {
+     "score": 4,
+     "reasoning": "18% flat rate plus easy online access draws funds; heavy overbidding"
+    },
+    "capitalFloor": {
+     "score": 9,
+     "reasoning": "Liens sell at face tax amounts, often a few hundred dollars"
+    },
+    "processRisk": {
+     "score": 4,
+     "reasoning": "Tax titles voidable on notice defects; chancery process is strict"
+    },
+    "legalStability": {
+     "score": 8,
+     "reasoning": "Decades-old 1.5%/mo + 2yr redemption scheme, little change"
+    },
+    "otcAvailability": {
+     "score": 8,
+     "reasoning": "State tax-forfeited land inventory purchasable outside auctions"
+    }
+   },
+   "sources": [
+    "https://govease.helpscoutdocs.com/article/130-mississippi-tax-sale-overview"
+   ]
+  },
+  {
+   "slug": "missouri",
+   "state": "Missouri",
+   "system": "lien",
+   "investorAccessible": true,
+   "maxRate": "Up to 10%",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "1yr",
+   "statute": "§140.340 RSMo",
+   "officialSource": "https://revisor.mo.gov/",
+   "onlinePortals": [
+    "Bid4Assets"
+   ],
+   "compositeScore": 5.3,
+   "scores": {
+    "effectiveYield": {
+     "score": 4,
+     "reasoning": "10% cap on cert amount; premium earns 0%, subsequent taxes only 8%"
+    },
+    "penaltyStructure": {
+     "score": 3,
+     "reasoning": "Simple interest capped at 10%/yr; no flat day-1 penalty"
+    },
+    "redemption": {
+     "score": 7,
+     "reasoning": "Absolute 1yr redemption right after sale (140.340)"
+    },
+    "auctionAccess": {
+     "score": 4,
+     "reasoning": "In-person August courthouse sales in most counties; little online"
+    },
+    "competition": {
+     "score": 6,
+     "reasoning": "In-person format and 10% cap keep institutional money limited"
+    },
+    "capitalFloor": {
+     "score": 8,
+     "reasoning": "Certificates at back-tax amounts, often a few hundred dollars"
+    },
+    "processRisk": {
+     "score": 4,
+     "reasoning": "Strict pre-deed notice duties; defects can void the deed"
+    },
+    "legalStability": {
+     "score": 8,
+     "reasoning": "Chapter 140 framework stable for decades"
+    },
+    "otcAvailability": {
+     "score": 4,
+     "reasoning": "Limited post-sale/county leftover offerings only"
+    }
+   },
+   "sources": [
+    "https://revisor.mo.gov/main/OneSection.aspx?section=140.340"
+   ]
+  },
+  {
+   "slug": "montana",
+   "state": "Montana",
+   "system": "lien",
+   "investorAccessible": true,
+   "maxRate": "10%/yr (5/6 of 1% per month, accrues daily) + flat 2% delinquency penalty; no bid-down",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "3yr from lien attachment (habitable dwelling/commercial) or 2yr (bare land)",
+   "statute": "Mont. Code Ann. §15-17-125 (lien attachment) and §15-17-323 (assignment to investors)",
+   "officialSource": "https://mca.legmt.gov/bills/mca/title_0150/chapter_0170/part_0030/section_0230/0150-0170-0030-0230.html",
+   "onlinePortals": [
+    "County treasurer sites"
+   ],
+   "compositeScore": 5.7,
+   "scores": {
+    "effectiveYield": {
+     "score": 5,
+     "reasoning": "Full 10%/yr + 2% penalty at face via assignment; no bid-down erosion"
+    },
+    "penaltyStructure": {
+     "score": 4,
+     "reasoning": "Flat 2% penalty plus 10% simple interest"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "3yr redemption (2yr bare land) locks capital"
+    },
+    "auctionAccess": {
+     "score": 5,
+     "reasoning": "No auction: county treasurer assigns liens OTC after certified notice"
+    },
+    "competition": {
+     "score": 8,
+     "reasoning": "Certified-mail legwork and rural counties keep bidders scarce"
+    },
+    "capitalFloor": {
+     "score": 9,
+     "reasoning": "Pay back taxes + $25 fee; liens often a few hundred dollars"
+    },
+    "processRisk": {
+     "score": 4,
+     "reasoning": "Tax deed needs litigation guarantee, certified notices, publication"
+    },
+    "legalStability": {
+     "score": 5,
+     "reasoning": "Assignment/tax-deed process revised repeatedly in recent sessions"
+    },
+    "otcAvailability": {
+     "score": 9,
+     "reasoning": "Entire system is OTC assignment from county delinquency lists"
+    }
+   },
+   "sources": [
+    "https://blainecounty-mt.gov/wp-content/uploads/2025/09/Tax-Liens-Assignments-Deeds-Info.pdf",
+    "https://mca.legmt.gov/bills/mca/title_0150/chapter_0170/part_0030/section_0230/0150-0170-0030-0230.html"
+   ]
+  },
+  {
+   "slug": "nebraska",
+   "state": "Nebraska",
+   "system": "lien",
+   "investorAccessible": true,
+   "maxRate": "14% flat (bidding is by round-robin or undivided-percentage under §77-1807; the rate itself is never bid down)",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "3yr",
+   "statute": "Neb. Rev. Stat. §77-1801",
+   "officialSource": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-1807",
+   "onlinePortals": [
+    "County treasurer sites"
+   ],
+   "compositeScore": 5.3,
+   "scores": {
+    "effectiveYield": {
+     "score": 6,
+     "reasoning": "14% flat per 77-1824/45-104.01; rotation bidding means winners keep full 14%"
+    },
+    "penaltyStructure": {
+     "score": 5,
+     "reasoning": "no flat penalty; 14% simple interest accrues from purchase to redemption"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "3-yr redemption before deed application (77-1837); capital locked long"
+    },
+    "auctionAccess": {
+     "score": 3,
+     "reasoning": "annual first-Monday-March in-person county treasurer sales; little online"
+    },
+    "competition": {
+     "score": 6,
+     "reasoning": "round-robin ticket lottery dilutes edge; rural counties thin, Omaha/Lincoln crowded"
+    },
+    "capitalFloor": {
+     "score": 9,
+     "reasoning": "certificate = one year's delinquent taxes; often a few hundred dollars"
+    },
+    "processRisk": {
+     "score": 5,
+     "reasoning": "treasurer's deed or judicial foreclosure after 3 yrs; strict notice steps"
+    },
+    "legalStability": {
+     "score": 4,
+     "reasoning": "post-Tyler (2023) surplus-forfeiture fallout; deed/surplus process recently amended"
+    },
+    "otcAvailability": {
+     "score": 8,
+     "reasoning": "unsold liens sold OTC/by assignment from county treasurers year-round"
+    }
+   },
+   "sources": [
+    "https://nebraskalegislature.gov/laws/statutes.php?statute=77-1807",
+    "https://law.justia.com/codes/nebraska/chapter-77/statute-77-1824/"
+   ]
+  },
+  {
+   "slug": "nevada",
+   "state": "Nevada",
+   "system": "deed",
+   "investorAccessible": false,
+   "maxRate": "N/A",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "N/A",
+   "statute": "NRS §361.585",
+   "officialSource": "https://www.leg.state.nv.us/",
+   "onlinePortals": [
+    "County sites"
+   ],
+   "compositeScore": 2.6,
+   "scores": {
+    "effectiveYield": {
+     "score": 1,
+     "reasoning": "no lien certificates; retail lien market doesn't exist - county trustee deed auctions only"
+    },
+    "penaltyStructure": {
+     "score": 1,
+     "reasoning": "no investor-held lien instrument; no penalty/interest accrues to investors"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "owner redeems up to 3 business days pre-auction (NRS 361.585); investor holds nothing"
+    },
+    "auctionAccess": {
+     "score": 1,
+     "reasoning": "no retail lien auctions exist; only trustee property sales after 3-yr delinquency"
+    },
+    "competition": {
+     "score": 3,
+     "reasoning": "Clark/Washoe trustee deed auctions draw heavy bidder pools"
+    },
+    "capitalFloor": {
+     "score": 2,
+     "reasoning": "full price deed purchases only; no retail lien market exists"
+    },
+    "processRisk": {
+     "score": 3,
+     "reasoning": "trustee-deed buyers typically need quiet title; no self-executing lien path"
+    },
+    "legalStability": {
+     "score": 8,
+     "reasoning": "NRS 361 trustee-deed process stable for decades"
+    },
+    "otcAvailability": {
+     "score": 2,
+     "reasoning": "no OTC lien inventory; retail lien market doesn't exist in NV"
+    }
+   },
+   "sources": [
+    "https://law.justia.com/codes/nevada/chapter-361/statute-361-585/"
+   ]
+  },
+  {
+   "slug": "new-hampshire",
+   "state": "New Hampshire",
+   "system": "lien",
+   "investorAccessible": false,
+   "maxRate": "Up to 14%",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "2yr (tax deed issues 2 years after lien execution, RSA 80:76)",
+   "statute": "RSA §80:1",
+   "officialSource": "https://gc.nh.gov/rsa/html/v/80/80-76.htm",
+   "onlinePortals": [
+    "Town sites"
+   ],
+   "compositeScore": 2.2,
+   "scores": {
+    "effectiveYield": {
+     "score": 1,
+     "reasoning": "RSA 80:61 liens execute only to municipality/county/state; retail lien market doesn't exist"
+    },
+    "penaltyStructure": {
+     "score": 1,
+     "reasoning": "14% redemption interest (RSA 80:69) accrues to the town, not private investors"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "2-yr redemption to deed (RSA 80:76), but only the municipality holds the lien"
+    },
+    "auctionAccess": {
+     "score": 1,
+     "reasoning": "no investor lien auctions; lien transfer needs a town vote (RSA 80:80), rare"
+    },
+    "competition": {
+     "score": 2,
+     "reasoning": "no retail lien market exists to compete in"
+    },
+    "capitalFloor": {
+     "score": 2,
+     "reasoning": "no retail lien market exists; only full-price municipal deed resales"
+    },
+    "processRisk": {
+     "score": 3,
+     "reasoning": "buying town-deeded property carries Polonsky-style surplus/title claim risk"
+    },
+    "legalStability": {
+     "score": 6,
+     "reasoning": "old statute, but Polonsky and Tyler surplus rulings forced recent changes"
+    },
+    "otcAvailability": {
+     "score": 2,
+     "reasoning": "no OTC liens; retail lien market doesn't exist in NH"
+    }
+   },
+   "sources": [
+    "https://gc.nh.gov/rsa/html/v/80/80-61.htm",
+    "https://gc.nh.gov/rsa/html/v/80/80-69.htm",
+    "https://gc.nh.gov/rsa/html/v/80/80-76.htm"
+   ]
+  },
+  {
+   "slug": "new-jersey",
+   "state": "New Jersey",
+   "system": "lien",
+   "investorAccessible": true,
+   "maxRate": "18% premium system",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "6mo to 2yr",
+   "statute": "NJSA §54:5-1",
+   "officialSource": "https://www.njleg.state.nj.us/",
+   "onlinePortals": [
+    "RealAuction",
+    "Bid4Assets"
+   ],
+   "compositeScore": 5,
+   "scores": {
+    "effectiveYield": {
+     "score": 4,
+     "reasoning": "18% ceiling bid to 0% then cash premiums in good towns; net yields thin"
+    },
+    "penaltyStructure": {
+     "score": 6,
+     "reasoning": "statutory 2-6% redemption penalty plus interest survives even early payoff"
+    },
+    "redemption": {
+     "score": 5,
+     "reasoning": "private holder waits 2 yrs to foreclose (6 mo municipal/abandoned)"
+    },
+    "auctionAccess": {
+     "score": 7,
+     "reasoning": "hundreds of municipal sales yearly, many run on online platforms"
+    },
+    "competition": {
+     "score": 3,
+     "reasoning": "institutional funds dominate; rates routinely bid to 0% plus premium"
+    },
+    "capitalFloor": {
+     "score": 7,
+     "reasoning": "small liens exist but premium bids add real cash outlay"
+    },
+    "processRisk": {
+     "score": 4,
+     "reasoning": "judicial foreclosure, strict notice; premium forfeited if lien sits 5 yrs"
+    },
+    "legalStability": {
+     "score": 5,
+     "reasoning": "2024 post-Tyler amendments reworked foreclosure/surplus procedure"
+    },
+    "otcAvailability": {
+     "score": 4,
+     "reasoning": "municipal-held liens assignable case-by-case; no statewide OTC list"
+    }
+   },
+   "sources": [
+    "https://www.metrickesq.com/blog/new-jersey-tax-sale-foreclosure-timeline/",
+    "https://www.hopewelltwp.org/280/Redemption-More-Information"
+   ]
+  },
+  {
+   "slug": "new-mexico",
+   "state": "New Mexico",
+   "system": "deed",
+   "investorAccessible": false,
+   "maxRate": "N/A",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "N/A",
+   "statute": "NMSA §7-38-1",
+   "officialSource": "https://nmonesource.com/",
+   "onlinePortals": [
+    "County sites"
+   ],
+   "compositeScore": 3,
+   "scores": {
+    "effectiveYield": {
+     "score": 1,
+     "reasoning": "no liens sold; retail lien market doesn't exist - state PTD deed auctions only (7-38-65)"
+    },
+    "penaltyStructure": {
+     "score": 1,
+     "reasoning": "no investor lien instrument; nothing accrues to investors"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "no post-sale redemption; only 2-yr court challenge window (7-38-70)"
+    },
+    "auctionAccess": {
+     "score": 3,
+     "reasoning": "state Property Tax Division runs in-person county auctions; deed-only"
+    },
+    "competition": {
+     "score": 5,
+     "reasoning": "PTD auctions draw moderate crowds; rural sales thinner"
+    },
+    "capitalFloor": {
+     "score": 2,
+     "reasoning": "full purchase price due at auction; no retail lien market exists"
+    },
+    "processRisk": {
+     "score": 3,
+     "reasoning": "PTD deed sold as-is, no title warranty; quiet title usually required"
+    },
+    "legalStability": {
+     "score": 8,
+     "reasoning": "NMSA 7-38 deed process stable; sale-based system avoided Tyler upheaval"
+    },
+    "otcAvailability": {
+     "score": 2,
+     "reasoning": "no OTC lien lists; retail lien market doesn't exist in NM"
+    }
+   },
+   "sources": [
+    "https://www.tax.newmexico.gov/businesses/property-tax-overview/delinquent-property-tax-auctions/",
+    "https://law.justia.com/codes/new-mexico/chapter-7/article-38/section-7-38-65/"
+   ]
+  },
+  {
+   "slug": "new-york",
+   "state": "New York",
+   "system": "hybrid",
+   "investorAccessible": true,
+   "maxRate": "Varies by venue: Nassau County liens up to 10% of purchase price per 6-month period (first 24 months); NYC 6-16% tiered but sold only to an institutional trust; most counties sell deeds, not liens",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "2yr",
+   "statute": "NY RPTL Art. 11 (§§1100-1194; redemption at §1110)",
+   "officialSource": "https://law.justia.com/codes/new-york/rpt/article-11/title-2/1110/",
+   "onlinePortals": [
+    "Bid4Assets",
+    "County sites"
+   ],
+   "compositeScore": 3.7,
+   "scores": {
+    "effectiveYield": {
+     "score": 3,
+     "reasoning": "retail lien buying ~limited to Nassau (10%/6-mo); NYC bulk trust; most counties deed"
+    },
+    "penaltyStructure": {
+     "score": 3,
+     "reasoning": "interest/penalty accrues over time; no large day-1 flat penalty"
+    },
+    "redemption": {
+     "score": 5,
+     "reasoning": "2-yr redemption standard (RPTL 1110); 1 yr for vacant/abandoned"
+    },
+    "auctionAccess": {
+     "score": 3,
+     "reasoning": "no statewide portal; Nassau annual lien sale, elsewhere county deed auctions"
+    },
+    "competition": {
+     "score": 3,
+     "reasoning": "Nassau sale institutional-heavy; NYC trust sale excludes retail entirely"
+    },
+    "capitalFloor": {
+     "score": 6,
+     "reasoning": "Nassau liens can be small, but it's nearly the only retail lien venue"
+    },
+    "processRisk": {
+     "score": 4,
+     "reasoning": "judicial foreclosure, county-by-county opt-outs and strict notice rules"
+    },
+    "legalStability": {
+     "score": 4,
+     "reasoning": "2024 RPTL surplus amendments post-Tyler; enforcement regime in flux"
+    },
+    "otcAvailability": {
+     "score": 2,
+     "reasoning": "no OTC lien programs for retail buyers"
+    }
+   },
+   "sources": [
+    "https://www.nassaucountyny.gov/528/Notice-to-Tax-Lien-Purchasers",
+    "https://law.justia.com/codes/new-york/rpt/article-11/title-2/1110/",
+    "https://www.nyc.gov/site/finance/property/property-lien-sales.page"
+   ]
+  },
+  {
+   "slug": "north-carolina",
+   "state": "North Carolina",
+   "system": "deed",
+   "investorAccessible": false,
+   "maxRate": "N/A",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "N/A",
+   "statute": "NCGS §§105-374 (mortgage-style foreclosure) and 105-375 (in rem foreclosure) - these govern tax foreclosure of real property; §105-368 is attachment/garnishment of personal property",
+   "officialSource": "https://www.ncleg.net/enactedlegislation/statutes/html/bysection/chapter_105/gs_105-374.html",
+   "onlinePortals": [
+    "Sheriff sites"
+   ],
+   "compositeScore": 3.1,
+   "scores": {
+    "effectiveYield": {
+     "score": 1,
+     "reasoning": "no lien certificates sold; retail lien market doesn't exist - foreclosure deed sales only"
+    },
+    "penaltyStructure": {
+     "score": 1,
+     "reasoning": "no investor lien instrument; nothing accrues to investors"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "owner can pay until sale confirmation; no certificate holding period exists"
+    },
+    "auctionAccess": {
+     "score": 3,
+     "reasoning": "courthouse foreclosure sales, in person, with 10-day upset-bid rounds"
+    },
+    "competition": {
+     "score": 5,
+     "reasoning": "upset-bid system drags sales out; moderate bidder pools"
+    },
+    "capitalFloor": {
+     "score": 2,
+     "reasoning": "full bid price required; retail lien market doesn't exist"
+    },
+    "processRisk": {
+     "score": 4,
+     "reasoning": "judicial (105-374) or in rem (105-375) deed; upset bids can hijack a win"
+    },
+    "legalStability": {
+     "score": 8,
+     "reasoning": "foreclosure-deed statutes stable for decades; sale-based, low Tyler exposure"
+    },
+    "otcAvailability": {
+     "score": 2,
+     "reasoning": "no OTC liens; retail lien market doesn't exist in NC"
+    }
+   },
+   "sources": [
+    "https://www.ncleg.net/enactedlegislation/statutes/html/bysection/chapter_105/gs_105-374.html",
+    "https://www.ncleg.net/enactedlegislation/statutes/html/bysection/chapter_105/gs_105-375.html"
+   ]
+  },
+  {
+   "slug": "north-dakota",
+   "state": "North Dakota",
+   "system": "deed",
+   "investorAccessible": false,
+   "maxRate": "N/A",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "N/A",
+   "statute": "NDCC ch. 57-28 (§57-28-01, foreclosure of tax lien / county tax deed) - private lien sales abolished in 1999",
+   "officialSource": "https://ndlegis.gov/cencode/t57c28.pdf",
+   "onlinePortals": [
+    "County sites"
+   ],
+   "compositeScore": 3.6,
+   "scores": {
+    "effectiveYield": {
+     "score": 1,
+     "reasoning": "no private lien sales since 1999; retail lien market doesn't exist"
+    },
+    "penaltyStructure": {
+     "score": 1,
+     "reasoning": "no investor lien instrument exists"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "owner redeems before county takes tax deed; investors hold nothing"
+    },
+    "auctionAccess": {
+     "score": 3,
+     "reasoning": "annual third-Tuesday-of-November in-person county deed auctions"
+    },
+    "competition": {
+     "score": 7,
+     "reasoning": "rural state, sparse turnout at annual county deed auctions"
+    },
+    "capitalFloor": {
+     "score": 3,
+     "reasoning": "county minimum-price deeds can be cheap, but retail lien market doesn't exist"
+    },
+    "processRisk": {
+     "score": 4,
+     "reasoning": "county tax deed after ch. 57-28 foreclosure notice; quiet title still prudent"
+    },
+    "legalStability": {
+     "score": 8,
+     "reasoning": "deed-only regime unchanged since 1999"
+    },
+    "otcAvailability": {
+     "score": 3,
+     "reasoning": "unsold county parcels sold privately post-auction; deeds only, no retail liens"
+    }
+   },
+   "sources": [
+    "https://ndlegis.gov/cencode/t57c28.pdf",
+    "https://www.ndaco.org/about-ndaco/faq/6691/"
+   ]
+  },
+  {
+   "slug": "ohio",
+   "state": "Ohio",
+   "system": "lien",
+   "investorAccessible": false,
+   "maxRate": "18% - public auctions start bidding at 18% simple interest bid down in 0.25% increments (ORC 5721.32); negotiated bulk sales set rate up to 18% (ORC 5721.33)",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "Varies",
+   "statute": "ORC §5721.30",
+   "officialSource": "https://codes.ohio.gov/ohio-revised-code/section-5721.32",
+   "onlinePortals": [
+    "Limited"
+   ],
+   "compositeScore": 2.8,
+   "scores": {
+    "effectiveYield": {
+     "score": 2,
+     "reasoning": "certs sold mostly in negotiated bulk deals to funds; retail lien market effectively nonexistent"
+    },
+    "penaltyStructure": {
+     "score": 2,
+     "reasoning": "18% cert rate exists but retail can't buy in; nothing accrues to retail"
+    },
+    "redemption": {
+     "score": 4,
+     "reasoning": "owner may redeem until cert foreclosure completes; moderate hold for cert owners"
+    },
+    "auctionAccess": {
+     "score": 1,
+     "reasoning": "large counties use negotiated bulk sales (5721.33); public auctions rare"
+    },
+    "competition": {
+     "score": 2,
+     "reasoning": "institutional lockup of certificate inventory in eligible counties"
+    },
+    "capitalFloor": {
+     "score": 1,
+     "reasoning": "bulk portfolios run to millions; retail cert market doesn't exist"
+    },
+    "processRisk": {
+     "score": 4,
+     "reasoning": "judicial foreclosure required after certificate; attorney-driven process"
+    },
+    "legalStability": {
+     "score": 7,
+     "reasoning": "certificate statute (ORC 5721.30-.43) stable since late 1990s"
+    },
+    "otcAvailability": {
+     "score": 2,
+     "reasoning": "no OTC certificates; retail cert market doesn't exist in OH"
+    }
+   },
+   "sources": [
+    "https://codes.ohio.gov/ohio-revised-code/section-5721.32"
+   ]
+  },
+  {
+   "slug": "oklahoma",
+   "state": "Oklahoma",
+   "system": "deed",
+   "investorAccessible": false,
+   "maxRate": "N/A",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "None post-sale (owner may redeem only before resale auction begins)",
+   "statute": "68 OS §3101",
+   "officialSource": "https://www.oklahomacounty.org/elected-offices/treasurer",
+   "onlinePortals": [
+    "County sites"
+   ],
+   "compositeScore": 3.3,
+   "scores": {
+    "effectiveYield": {
+     "score": 1,
+     "reasoning": "Deed-only June resale, no lien/interest product; retail lien market doesn't exist"
+    },
+    "penaltyStructure": {
+     "score": 1,
+     "reasoning": "No redemption penalty/interest paid to investors; deed state, no retail lien market"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "No post-sale redemption; owner redeems only before auction (68 OS 3113)"
+    },
+    "auctionAccess": {
+     "score": 3,
+     "reasoning": "Annual in-person cash resale (2nd Monday June); no lien portal"
+    },
+    "competition": {
+     "score": 6,
+     "reasoning": "Rural county resales thin; OKC/Tulsa auctions crowded"
+    },
+    "capitalFloor": {
+     "score": 3,
+     "reasoning": "Full deed price >=2/3 assessed in cash day-of; no small-lien retail market"
+    },
+    "processRisk": {
+     "score": 4,
+     "reasoning": "Resale deed non-warranty; quiet title advised; some fed/state liens survive"
+    },
+    "legalStability": {
+     "score": 7,
+     "reasoning": "Title 68 resale scheme stable for decades; 2023 deed-affidavit rule minor"
+    },
+    "otcAvailability": {
+     "score": 3,
+     "reasoning": "County-owned unsold-parcel lists only; no lien OTC, retail lien market absent"
+    }
+   },
+   "sources": [
+    "https://www.oklahomacounty.org/elected-offices/treasurer",
+    "https://www.oklahomacounty.org/Portals/0/Images/Treasurer/2025%20resale%20instructions.pdf"
+   ]
+  },
+  {
+   "slug": "oregon",
+   "state": "Oregon",
+   "system": "deed",
+   "investorAccessible": false,
+   "maxRate": "N/A",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "N/A",
+   "statute": "ORS §312.010",
+   "officialSource": "https://www.oregonlegislature.gov/",
+   "onlinePortals": [
+    "County tax collector sites"
+   ],
+   "compositeScore": 2.6,
+   "scores": {
+    "effectiveYield": {
+     "score": 1,
+     "reasoning": "ORS 312: county forecloses and takes deed itself; retail investor market doesn't exist"
+    },
+    "penaltyStructure": {
+     "score": 1,
+     "reasoning": "5% penalty+interest on redemption goes to county, not investors; no retail market"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "2yr redemption while county holds (ORS 312.120); investors shut out"
+    },
+    "auctionAccess": {
+     "score": 1,
+     "reasoning": "No investor tax sale at all; only later county surplus land sales"
+    },
+    "competition": {
+     "score": 3,
+     "reasoning": "No retail lien market; occasional county land auctions irrelevant"
+    },
+    "capitalFloor": {
+     "score": 2,
+     "reasoning": "Only route is buying county surplus property outright; retail lien market absent"
+    },
+    "processRisk": {
+     "score": 3,
+     "reasoning": "Judicial county foreclosure; investor has no statutory role"
+    },
+    "legalStability": {
+     "score": 8,
+     "reasoning": "ORS ch.312 essentials unchanged for decades"
+    },
+    "otcAvailability": {
+     "score": 2,
+     "reasoning": "No OTC lien lists; retail market doesn't exist"
+    }
+   },
+   "sources": [
+    "https://oregon.public.law/statutes/ors_312.120"
+   ]
+  },
+  {
+   "slug": "pennsylvania",
+   "state": "Pennsylvania",
+   "system": "deed",
+   "investorAccessible": false,
+   "maxRate": "N/A",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "N/A",
+   "statute": "72 PS §5860.101",
+   "officialSource": "https://www.legis.state.pa.us/",
+   "onlinePortals": [
+    "Tax claim bureau sites"
+   ],
+   "compositeScore": 2.9,
+   "scores": {
+    "effectiveYield": {
+     "score": 1,
+     "reasoning": "RETSL upset/judicial deed sales, no interest product; retail lien market doesn't exist"
+    },
+    "penaltyStructure": {
+     "score": 1,
+     "reasoning": "No post-sale redemption penalty under RETSL; deed only, no retail lien market"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "No redemption after upset sale (72 PS 5860); Phila/Allegheny under separate acts"
+    },
+    "auctionAccess": {
+     "score": 3,
+     "reasoning": "County upset/judicial sales mostly in person; no statewide portal"
+    },
+    "competition": {
+     "score": 5,
+     "reasoning": "Surviving mortgages/liens at upset sales thin the bidder pool"
+    },
+    "capitalFloor": {
+     "score": 3,
+     "reasoning": "Full upset price in cash; no small-lien entry, retail lien market absent"
+    },
+    "processRisk": {
+     "score": 2,
+     "reasoning": "Upset deeds keep mortgages/judgments; clean title needs judicial sale or quiet title"
+    },
+    "legalStability": {
+     "score": 6,
+     "reasoning": "1947 RETSL stable but constant notice/due-process litigation"
+    },
+    "otcAvailability": {
+     "score": 3,
+     "reasoning": "County repository lists of unsold parcels; no lien OTC, retail lien market absent"
+    }
+   },
+   "sources": [
+    "https://www.westmorelandcountypa.gov/165/Annual-Upset-Tax-Sale"
+   ]
+  },
+  {
+   "slug": "rhode-island",
+   "state": "Rhode Island",
+   "system": "redeemable-deed",
+   "investorAccessible": true,
+   "maxRate": "10% flat penalty if redeemed within 6mo, +1%/mo after (16% at 1yr)",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "1yr",
+   "statute": "RIGL §44-9-1",
+   "officialSource": "https://webserver.rilegislature.gov/Statutes/TITLE44/44-9/44-9-19.htm",
+   "onlinePortals": [
+    "Town tax collector sites"
+   ],
+   "compositeScore": 5.4,
+   "scores": {
+    "effectiveYield": {
+     "score": 7,
+     "reasoning": "10% flat penalty <=6mo (~20% annualized); +1%/mo after, 16% at 1yr"
+    },
+    "penaltyStructure": {
+     "score": 8,
+     "reasoning": "Flat 10% of purchase price even on day-1 redemption (44-9-19)"
+    },
+    "redemption": {
+     "score": 7,
+     "reasoning": "Foreclosure petition allowed 1yr after sale; ~1yr capital recycle"
+    },
+    "auctionAccess": {
+     "score": 4,
+     "reasoning": "Town-by-town collector sales, mostly in person; no statewide portal"
+    },
+    "competition": {
+     "score": 6,
+     "reasoning": "Small municipal sales; lighter institutional presence than FL/NJ"
+    },
+    "capitalFloor": {
+     "score": 5,
+     "reasoning": "Pay taxes+costs per parcel (low thousands); bid down undivided interest"
+    },
+    "processRisk": {
+     "score": 4,
+     "reasoning": "Superior Court petition to foreclose redemption; strict notice traps"
+    },
+    "legalStability": {
+     "score": 6,
+     "reasoning": "Ch.44-9 mature but post-Tyler surplus scrutiny and recent amendments"
+    },
+    "otcAvailability": {
+     "score": 2,
+     "reasoning": "No OTC or assignment list system"
+    }
+   },
+   "sources": [
+    "https://webserver.rilegislature.gov/Statutes/TITLE44/44-9/44-9-19.htm",
+    "https://webserver.rilegislature.gov/Statutes/TITLE44/44-9/44-9-21.htm"
+   ]
+  },
+  {
+   "slug": "south-carolina",
+   "state": "South Carolina",
+   "system": "redeemable-deed",
+   "investorAccessible": true,
+   "maxRate": "Up to 12%",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "12mo",
+   "statute": "SC Code §12-51-40",
+   "officialSource": "https://www.scstatehouse.gov/",
+   "onlinePortals": [
+    "County treasurer sites"
+   ],
+   "compositeScore": 5.3,
+   "scores": {
+    "effectiveYield": {
+     "score": 5,
+     "reasoning": "3/6/9/12% by quarter held on bid; interest capped at FLC opening bid (12-51-90)"
+    },
+    "penaltyStructure": {
+     "score": 6,
+     "reasoning": "Flat 3% tranche even day-1, stepping to 12% by month 12"
+    },
+    "redemption": {
+     "score": 7,
+     "reasoning": "Fixed 12mo; tax title within ~30d after (12-51-130)"
+    },
+    "auctionAccess": {
+     "score": 5,
+     "reasoning": "Annual county sales Oct-Dec; a few counties online, most in person"
+    },
+    "competition": {
+     "score": 4,
+     "reasoning": "Premium bidding at big county sales; interest cap limits overbid yield"
+    },
+    "capitalFloor": {
+     "score": 5,
+     "reasoning": "Opening bid = taxes+costs, typically low thousands"
+    },
+    "processRisk": {
+     "score": 5,
+     "reasoning": "Administrative tax title after 12mo, but notice-defect voidings recur"
+    },
+    "legalStability": {
+     "score": 7,
+     "reasoning": "Ch.12-51 stable; 12-51-90 interest-cap tweak long settled"
+    },
+    "otcAvailability": {
+     "score": 4,
+     "reasoning": "FLC-held bids assignable in some counties; no robust statewide lists"
+    }
+   },
+   "sources": [
+    "https://www.scstatehouse.gov/code/t12c051.php"
+   ]
+  },
+  {
+   "slug": "south-dakota",
+   "state": "South Dakota",
+   "system": "lien",
+   "investorAccessible": false,
+   "maxRate": "10% max, bid down (SDCL 10-23-8)",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "3yr uniform (SDCL 10-25-1)",
+   "statute": "SDCL §10-23-1",
+   "officialSource": "https://sdlegislature.gov/api/Statutes/Statute/10-23-28.1",
+   "onlinePortals": [
+    "County treasurer sites"
+   ],
+   "compositeScore": 4.4,
+   "scores": {
+    "effectiveYield": {
+     "score": 3,
+     "reasoning": "10% statutory cap bid down; certs sold only where county opts in"
+    },
+    "penaltyStructure": {
+     "score": 3,
+     "reasoning": "Simple interest at bid rate <=10%/yr; no flat penalty"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "3yr town/4yr rural before deed steps; slow capital recycle"
+    },
+    "auctionAccess": {
+     "score": 2,
+     "reasoning": "10-23-28.1: county holds certs unless commissioners waive; Dec in-person sales"
+    },
+    "competition": {
+     "score": 7,
+     "reasoning": "Opt-in rural December sales draw tiny bidder pools"
+    },
+    "capitalFloor": {
+     "score": 8,
+     "reasoning": "Certificate = delinquent taxes+costs, often a few hundred dollars"
+    },
+    "processRisk": {
+     "score": 5,
+     "reasoning": "Tax deed via ch.10-25 notice process after multi-year hold"
+    },
+    "legalStability": {
+     "score": 7,
+     "reasoning": "Scheme rooted in SDC 1939; 2018 amendments cosmetic"
+    },
+    "otcAvailability": {
+     "score": 3,
+     "reasoning": "Assignment from county possible in opt-in counties; no robust lists"
+    }
+   },
+   "sources": [
+    "https://sdlegislature.gov/api/Statutes/Statute/10-23-8",
+    "https://sdlegislature.gov/api/Statutes/Statute/10-23-28.1",
+    "https://www.taxsaleresources.com/state/south-dakota"
+   ]
+  },
+  {
+   "slug": "tennessee",
+   "state": "Tennessee",
+   "system": "redeemable-deed",
+   "investorAccessible": true,
+   "maxRate": "12% per annum on full purchase price (T.C.A. 67-5-2701)",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "1yr, reducible to 180/90/30 days by delinquency length or vacancy",
+   "statute": "Tenn. Code §67-5-2701",
+   "officialSource": "https://www.ctas.tennessee.edu/eli/redemption",
+   "onlinePortals": [
+    "Trustee sites"
+   ],
+   "compositeScore": 5.1,
+   "scores": {
+    "effectiveYield": {
+     "score": 6,
+     "reasoning": "12%/yr on entire bid incl. overbid; hold capped at 1yr"
+    },
+    "penaltyStructure": {
+     "score": 5,
+     "reasoning": "12% simple interest from payment date; no flat day-1 penalty"
+    },
+    "redemption": {
+     "score": 7,
+     "reasoning": "1yr max, cut to 180/90/30d for long delinquency or vacant property"
+    },
+    "auctionAccess": {
+     "score": 6,
+     "reasoning": "Clerk & master judicial sales; GovEase online in many counties"
+    },
+    "competition": {
+     "score": 5,
+     "reasoning": "Memphis/Nashville sales bid near market; rural moderate"
+    },
+    "capitalFloor": {
+     "score": 3,
+     "reasoning": "Buy the property at judicial sale - full price, not just taxes"
+    },
+    "processRisk": {
+     "score": 4,
+     "reasoning": "Chancery confirmation plus redemption motions; payout waits on court"
+    },
+    "legalStability": {
+     "score": 7,
+     "reasoning": "2015 tiered-redemption rewrite now settled law"
+    },
+    "otcAvailability": {
+     "score": 3,
+     "reasoning": "County surplus/unsold parcel lists only; no lien OTC"
+    }
+   },
+   "sources": [
+    "https://www.ctas.tennessee.edu/eli/redemption"
+   ]
+  },
+  {
+   "slug": "texas",
+   "state": "Texas",
+   "system": "redeemable-deed",
+   "investorAccessible": true,
+   "maxRate": "25% flat premium yr-1 / 50% yr-2 (homestead-ag); 25% within 180d for other property",
+   "penaltyOrInterest": "penalty",
+   "redemptionPeriod": "180d/2yr",
+   "statute": "Tex. Prop. Tax Code §34.21",
+   "officialSource": "https://texas.public.law/statutes/tex._tax_code_section_34.21",
+   "onlinePortals": [
+    "RealAuction"
+   ],
+   "compositeScore": 6.7,
+   "scores": {
+    "effectiveYield": {
+     "score": 10,
+     "reasoning": "25% flat within 180d non-homestead (~50%+ annualized); 50% yr2 homestead"
+    },
+    "penaltyStructure": {
+     "score": 10,
+     "reasoning": "25% premium due even on day-1 redemption (34.21); 50% in year 2"
+    },
+    "redemption": {
+     "score": 9,
+     "reasoning": "180d for most property; 2yr only homestead/ag/minerals"
+    },
+    "auctionAccess": {
+     "score": 6,
+     "reasoning": "First-Tuesday sheriff sales statewide; growing online county adoption"
+    },
+    "competition": {
+     "score": 4,
+     "reasoning": "Metro auctions packed; bid-ups erode the deed discount"
+    },
+    "capitalFloor": {
+     "score": 3,
+     "reasoning": "Full property price in certified funds at auction"
+    },
+    "processRisk": {
+     "score": 6,
+     "reasoning": "Post-judgment deed with possession; quiet title often still needed"
+    },
+    "legalStability": {
+     "score": 8,
+     "reasoning": "Tax Code ch.34 stable for decades"
+    },
+    "otcAvailability": {
+     "score": 4,
+     "reasoning": "Struck-off resale lists from taxing units and their law firms"
+    }
+   },
+   "sources": [
+    "https://texas.public.law/statutes/tex._tax_code_section_34.21"
+   ]
+  },
+  {
+   "slug": "utah",
+   "state": "Utah",
+   "system": "deed",
+   "investorAccessible": false,
+   "maxRate": "N/A",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "N/A",
+   "statute": "Utah Code §59-2-1351.1 (final tax sale)",
+   "officialSource": "https://auditor.utahcounty.gov/may-tax-sale/policies",
+   "onlinePortals": [
+    "County sites"
+   ],
+   "compositeScore": 3.2,
+   "scores": {
+    "effectiveYield": {
+     "score": 1,
+     "reasoning": "Pure deed May sale (59-2-1351.1), no lien yield; retail lien market doesn't exist"
+    },
+    "penaltyStructure": {
+     "score": 1,
+     "reasoning": "No post-sale redemption, so no penalty stream; retail lien market absent"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "Redeem only before auction begins; none after sale"
+    },
+    "auctionAccess": {
+     "score": 4,
+     "reasoning": "Annual May county sales; several counties run online platforms"
+    },
+    "competition": {
+     "score": 4,
+     "reasoning": "Once-yearly sales draw active Wasatch Front bidder crowds"
+    },
+    "capitalFloor": {
+     "score": 3,
+     "reasoning": "Full parcel purchase at auction; no small-lien entry, retail lien market absent"
+    },
+    "processRisk": {
+     "score": 4,
+     "reasoning": "Tax deed akin to quitclaim, no warranty; quiet title advised"
+    },
+    "legalStability": {
+     "score": 8,
+     "reasoning": "59-2 Part 13 framework long stable"
+    },
+    "otcAvailability": {
+     "score": 2,
+     "reasoning": "No OTC lists; leftovers struck to county; retail lien market doesn't exist"
+    }
+   },
+   "sources": [
+    "https://auditor.utahcounty.gov/may-tax-sale/policies"
+   ]
+  },
+  {
+   "slug": "vermont",
+   "state": "Vermont",
+   "system": "lien",
+   "investorAccessible": true,
+   "maxRate": "Up to 12%",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "1yr",
+   "statute": "32 V.S.A. §5260 (tax sales under ch. 133, §§5251-5263)",
+   "officialSource": "https://guilfordvt.gov/guilford-delinquent-property-tax-sale-information/",
+   "onlinePortals": [
+    "Town tax collector sites"
+   ],
+   "compositeScore": 4.7,
+   "scores": {
+    "effectiveYield": {
+     "score": 5,
+     "reasoning": "1%/mo (12%/yr) paid on full bid price; no rate bid-down, capped by 1yr window"
+    },
+    "penaltyStructure": {
+     "score": 4,
+     "reasoning": "No flat penalty; 1%/mo simple, min 1 month accrues even on fast redemption"
+    },
+    "redemption": {
+     "score": 7,
+     "reasoning": "1yr redemption; collector's deed to buyer if unredeemed"
+    },
+    "auctionAccess": {
+     "score": 3,
+     "reasoning": "Town-by-town in-person collector sales; no statewide online portal"
+    },
+    "competition": {
+     "score": 8,
+     "reasoning": "Tiny town-run sales; mostly local bidders, few institutions"
+    },
+    "capitalFloor": {
+     "score": 5,
+     "reasoning": "Must pay full winning bid (taxes+costs); premiums raise outlay"
+    },
+    "processRisk": {
+     "score": 3,
+     "reasoning": "Quitclaim-style collector's deed; VT state liens survive, title hard to insure"
+    },
+    "legalStability": {
+     "score": 5,
+     "reasoning": "Old statute but active reform bills (S.196, 2026 session); rules in motion"
+    },
+    "otcAvailability": {
+     "score": 2,
+     "reasoning": "No OTC or assignment lists; sale-day purchase only"
+    }
+   },
+   "sources": [
+    "https://guilfordvt.gov/guilford-delinquent-property-tax-sale-information/"
+   ]
+  },
+  {
+   "slug": "virginia",
+   "state": "Virginia",
+   "system": "deed",
+   "investorAccessible": false,
+   "maxRate": "N/A",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "N/A",
+   "statute": "Va. Code §58.1-3965",
+   "officialSource": "https://law.lis.virginia.gov/",
+   "onlinePortals": [
+    "County sites"
+   ],
+   "compositeScore": 3.4,
+   "scores": {
+    "effectiveYield": {
+     "score": 1,
+     "reasoning": "No lien certificates; retail lien market doesn't exist — judicial deed sales only"
+    },
+    "penaltyStructure": {
+     "score": 1,
+     "reasoning": "No interest/penalty vehicle; retail lien market doesn't exist"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "Owner may redeem only before sale (58.1-3965); nothing accrues to investors"
+    },
+    "auctionAccess": {
+     "score": 4,
+     "reasoning": "Judicial deed auctions run county-by-county via law firms (TACS), some online"
+    },
+    "competition": {
+     "score": 5,
+     "reasoning": "Deed auctions draw local and online buyers bidding near market value"
+    },
+    "capitalFloor": {
+     "score": 2,
+     "reasoning": "Full property price at judicial sale; retail lien market doesn't exist"
+    },
+    "processRisk": {
+     "score": 6,
+     "reasoning": "Court-confirmed sale gives solid title, but slow equity proceeding, sold as-is"
+    },
+    "legalStability": {
+     "score": 8,
+     "reasoning": "Bill-in-equity process (Va. Code 58.1-3965 et seq.) stable for decades"
+    },
+    "otcAvailability": {
+     "score": 2,
+     "reasoning": "No OTC lien lists; retail lien market doesn't exist"
+    }
+   },
+   "sources": [
+    "https://law.lis.virginia.gov/vacode/title58.1/chapter39/section58.1-3965/"
+   ]
+  },
+  {
+   "slug": "washington",
+   "state": "Washington",
+   "system": "deed",
+   "investorAccessible": false,
+   "maxRate": "N/A",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "N/A",
+   "statute": "RCW §84.64.030",
+   "officialSource": "https://app.leg.wa.gov/",
+   "onlinePortals": [
+    "County sites"
+   ],
+   "compositeScore": 3.3,
+   "scores": {
+    "effectiveYield": {
+     "score": 1,
+     "reasoning": "County forecloses and sells deeds itself; retail lien market doesn't exist"
+    },
+    "penaltyStructure": {
+     "score": 1,
+     "reasoning": "No investor interest vehicle; retail lien market doesn't exist"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "No post-sale redemption except minors/incompetents (3yr, RCW 84.64.070)"
+    },
+    "auctionAccess": {
+     "score": 5,
+     "reasoning": "County treasurer deed auctions; several metros run online (e.g. Bid4Assets)"
+    },
+    "competition": {
+     "score": 4,
+     "reasoning": "Online metro deed auctions bid close to market value"
+    },
+    "capitalFloor": {
+     "score": 2,
+     "reasoning": "Full cash price at foreclosure auction; retail lien market doesn't exist"
+    },
+    "processRisk": {
+     "score": 5,
+     "reasoning": "Treasurer's deed vests title, but minor/incompetent 3yr redemption tail"
+    },
+    "legalStability": {
+     "score": 8,
+     "reasoning": "RCW 84.64 foreclosure framework stable for decades"
+    },
+    "otcAvailability": {
+     "score": 2,
+     "reasoning": "No OTC liens; retail lien market doesn't exist"
+    }
+   },
+   "sources": [
+    "https://app.leg.wa.gov/rcw/default.aspx?cite=84.64.070"
+   ]
+  },
+  {
+   "slug": "west-virginia",
+   "state": "West Virginia",
+   "system": "lien",
+   "investorAccessible": false,
+   "maxRate": "12% (1%/mo simple on taxes/charges paid)",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "Until tax deed issues (~18mo after Auditor sale)",
+   "statute": "WV Code §11A-3-1",
+   "officialSource": "https://code.wvlegislature.gov/11A-3-56/",
+   "onlinePortals": [
+    "County sheriff sites"
+   ],
+   "compositeScore": 5.2,
+   "scores": {
+    "effectiveYield": {
+     "score": 4,
+     "reasoning": "12% simple on taxes/charges only; auction premium earns nothing (NJ-like drag)"
+    },
+    "penaltyStructure": {
+     "score": 4,
+     "reasoning": "No flat penalty; 1%/mo simple interest per WV Code 11A-3-56"
+    },
+    "redemption": {
+     "score": 6,
+     "reasoning": "Redeemable until deed issues, roughly 18mo after Auditor sale"
+    },
+    "auctionAccess": {
+     "score": 5,
+     "reasoning": "Single statewide operator: Auditor runs annual county sales, wvsao.gov listings"
+    },
+    "competition": {
+     "score": 6,
+     "reasoning": "Low-profile rural auctions, though centralized Auditor sales draw some funds"
+    },
+    "capitalFloor": {
+     "score": 8,
+     "reasoning": "Liens open at taxes+charges; entry can be a few hundred dollars"
+    },
+    "processRisk": {
+     "score": 4,
+     "reasoning": "Buyer must file notice-to-redeem list within 120 days (11A-3-52); slips forfeit deed"
+    },
+    "legalStability": {
+     "score": 4,
+     "reasoning": "SB552 (2022) rewrote process, sheriff sales repealed; regime still bedding in"
+    },
+    "otcAvailability": {
+     "score": 6,
+     "reasoning": "Auditor disposes of unredeemed/nonentered lands via state lists post-auction"
+    }
+   },
+   "sources": [
+    "https://code.wvlegislature.gov/11A-3/",
+    "https://code.wvlegislature.gov/11A-3-56/",
+    "https://www.monroecountywv.gov/tax-office/delinquent-land-sale/83"
+   ]
+  },
+  {
+   "slug": "wisconsin",
+   "state": "Wisconsin",
+   "system": "deed",
+   "investorAccessible": false,
+   "maxRate": "N/A",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "N/A",
+   "statute": "Wis. Stat. §75.521 (in rem foreclosure of tax liens)",
+   "officialSource": "https://www.ocontocountywi.gov/416/In-Rem-Foreclosure-of-Tax-Liens",
+   "onlinePortals": [
+    "County sites"
+   ],
+   "compositeScore": 3.3,
+   "scores": {
+    "effectiveYield": {
+     "score": 1,
+     "reasoning": "County keeps certificates and forecloses in rem; retail lien market doesn't exist"
+    },
+    "penaltyStructure": {
+     "score": 1,
+     "reasoning": "Certificates are county-held only; retail lien market doesn't exist"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "Owner redeems to county pre-judgment (8wk min notice); nothing for investors"
+    },
+    "auctionAccess": {
+     "score": 3,
+     "reasoning": "Only county surplus-property sales after in rem judgment; no auction circuit"
+    },
+    "competition": {
+     "score": 6,
+     "reasoning": "Quiet county surplus sales; sealed/negotiated bids in many counties"
+    },
+    "capitalFloor": {
+     "score": 2,
+     "reasoning": "Buy county-owned parcels near market value; retail lien market doesn't exist"
+    },
+    "processRisk": {
+     "score": 6,
+     "reasoning": "County resells after 75.521 judgment extinguishes liens; title fairly clean, as-is"
+    },
+    "legalStability": {
+     "score": 7,
+     "reasoning": "75.521 in rem process long-established; post-Tyler surplus tweaks only"
+    },
+    "otcAvailability": {
+     "score": 2,
+     "reasoning": "No OTC liens; retail lien market doesn't exist"
+    }
+   },
+   "sources": [
+    "https://www.ocontocountywi.gov/416/In-Rem-Foreclosure-of-Tax-Liens"
+   ]
+  },
+  {
+   "slug": "wyoming",
+   "state": "Wyoming",
+   "system": "lien",
+   "investorAccessible": true,
+   "maxRate": "15% fixed + 3% penalty (random buyer draw; no bid-down)",
+   "penaltyOrInterest": "interest",
+   "redemptionPeriod": "4yr (tax deed application after year 4, bar at year 6)",
+   "statute": "Wyo. Stat. §39-13-108(e)",
+   "officialSource": "https://www.sweetwatercountywy.gov/departments/treasurer/tax_sales_and_redemptions.php",
+   "onlinePortals": [
+    "County sites"
+   ],
+   "compositeScore": 5.9,
+   "scores": {
+    "effectiveYield": {
+     "score": 7,
+     "reasoning": "15% fixed + 3% day-one penalty; random draw means rate is never bid down"
+    },
+    "penaltyStructure": {
+     "score": 6,
+     "reasoning": "3% flat penalty earned day of purchase, plus 15% simple interest"
+    },
+    "redemption": {
+     "score": 2,
+     "reasoning": "Owner has 4yr to redeem; deed application only opens after year 4"
+    },
+    "auctionAccess": {
+     "score": 3,
+     "reasoning": "In-person county treasurer sales with random buyer-number draw; little online"
+    },
+    "competition": {
+     "score": 8,
+     "reasoning": "Rural in-person rotation-draw sales; low institutional presence"
+    },
+    "capitalFloor": {
+     "score": 8,
+     "reasoning": "Liens sold at taxes+costs due; entry often a few hundred dollars"
+    },
+    "processRisk": {
+     "score": 6,
+     "reasoning": "Treasurer's deed after 39-13-108(e)(v) notices; act in yr4-6 window or cert expires"
+    },
+    "legalStability": {
+     "score": 8,
+     "reasoning": "39-13-108 certificate framework stable for decades"
+    },
+    "otcAvailability": {
+     "score": 5,
+     "reasoning": "County-struck certificates assignable in some counties; thin lists"
+    }
+   },
+   "sources": [
+    "https://www.albanycountywy.gov/299/Tax-Lien-Sale",
+    "https://uintacountywy.gov/632/Certificate-of-Purchase-Details",
+    "https://www.sweetwatercountywy.gov/departments/treasurer/tax_sales_and_redemptions.php"
+   ]
+  }
+ ]
+}
