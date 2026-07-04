@@ -32,3 +32,8 @@ Also on [Kaggle](https://www.kaggle.com/datasets/taxliensimple/us-state-tax-lien
 
 ## Citation
 > TaxLienSimple (2026). *U.S. State Tax Lien & Tax Deed Dataset.* https://taxliensimple.com/dataset
+
+## Cite this dataset
+**DOI: [10.5281/zenodo.21185506](https://doi.org/10.5281/zenodo.21185506)**
+
+Also available on: [Zenodo](https://zenodo.org/record/21185506) · [Hugging Face](https://huggingface.co/datasets/ayojeg/us-state-tax-lien-deed-2026) · [Kaggle](https://www.kaggle.com/datasets/taxliensimple/us-state-tax-lien-deed-2026) · [GitHub](https://github.com/ayojeges/us-state-tax-lien-deed-dataset) — canonical source: https://taxliensimple.com/dataset
