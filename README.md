@@ -11,6 +11,7 @@ stability, OTC availability) and given a **composite score**.
 > **Live, always-current version & full methodology:** https://taxliensimple.com/dataset
 > Per-state guides (sourced to statute): https://taxliensimple.com/guides
 > State-vs-state comparisons: https://taxliensimple.com/compare
+> Free 52-page due-diligence playbook (PDF): https://taxliensimple.com/tax-sale-due-diligence-playbook
 
 ## Why this exists
 Most "best states for tax lien investing" content misclassifies states (e.g. labeling Florida a
